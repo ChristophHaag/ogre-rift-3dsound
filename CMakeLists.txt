@@ -89,6 +89,7 @@ target_link_libraries(OculusOgreSample
 	${OGRE_Overlay_LIBRARIES}
 	${OIS_LIBRARIES}
 	${OCULUS_SDK_LIBRARIES}
+        cAudio
 )
 if( WIN32 )
 	target_link_libraries(OculusOgreSample

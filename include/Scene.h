@@ -17,6 +17,7 @@ class Scene
 		void createCameras();
 
 		void update( float dt );
+                void updateSound(Ogre::SceneNode *n);
 
 		Ogre::Camera* getLeftCamera() { return mCamLeft; }
 		Ogre::Camera* getRightCamera() { return mCamRight; }
